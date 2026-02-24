@@ -9,6 +9,13 @@ que una Api pueda brindar todos los detalles de el pokemon en una tarjeta de pre
 
 Preguntas:
 1-¿Qué valor agregado tiene el uso de webcomponents a su proyecto?
+R/
+
 2.¿De qué forma manipularon los datos sin recargar la página?
+R/
+
 3.¿De qué forma validaron las entradas de datos? Expliquen brevemente
+R/
+
 4.¿Cómo manejaría la escalabilidad futura en su página?
+R/
