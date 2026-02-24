@@ -3,7 +3,8 @@ Integrantes:
 -Edwin Saúl Vasquez Romero
 
 Descripción de la solución:
-
+Como solucion propuesta como equipo presentamos un modelo similar a una pokedex. En donde el usuario 
+ingresa el nombre de el pokemon que ingresa en su pokedex y luego se registra con su tarjeta de presentación dentro de la pagina.
 
 Preguntas:
 1-¿Qué valor agregado tiene el uso de webcomponents a su proyecto?
