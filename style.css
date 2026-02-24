@@ -40,6 +40,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: url('img/background.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .content h1 {
