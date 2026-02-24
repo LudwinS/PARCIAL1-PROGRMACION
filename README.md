@@ -1,6 +1,6 @@
 Integrantes:
+-Ludwin Saúl Vasquez Romero
 -Kriscia Tatiana Del Cid Argueta
--Edwin Saúl Vasquez Romero
 
 Descripción de la solución:
 Como estudiantes de ingenieria en sistemas, nos dimos cuenta que 
