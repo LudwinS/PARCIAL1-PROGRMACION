@@ -1,4 +1,4 @@
-/* Configuración general para eliminar márgenes por defecto */
+/* --- Configuración Plantilla UGB --- */
 * {
     margin: 0;
     padding: 0;
@@ -10,30 +10,28 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
-/* Estilos del Encabezado */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     border-bottom: 1px solid #e0e0e0;
+    background: white;
 }
 
-.logo {
-    height: 80px; /* Ajusta según el tamaño de tu logo */
-}
+.logo { height: 80px; }
 
 .header-text {
     text-align: right;
-    color: #0020c2; /* Azul característico de la UGB */
+    color: #0020c2;
     font-weight: bold;
     font-size: 0.9rem;
 }
 
-/* Estilos del Contenido Central */
+/* --- Diseño de la Pokédex de Kalos --- */
 .content {
     flex-grow: 1;
     display: flex;
@@ -44,27 +42,41 @@ body {
     background-size: cover;
 }
 
-.content h1 {
-    font-size: 4rem;
-    color: #333333;
-    font-weight: 800;
-    letter-spacing: 2px;
+.pokedex-case {
+    width: 100%;
+    max-width: 450px;
+    background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%);
+    padding: 25px;
+    border-radius: 20px;
+    border: 4px solid #333;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    position: relative;
 }
 
-/* Estilos del Pie de Página */
+.camera-sensor {
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #4fc3f7 10%, #0288d1 90%);
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #4fc3f7;
+}
+
+.screen-frame {
+    background-color: #212121;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #424242;
+}
+
+/* --- Pie de Página UGB --- */
 .footer {
-    background-color: #1a237e; /* Azul oscuro */
+    background-color: #1a237e;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer-info p {
-    margin: 5px 0;
-    font-size: 0.9rem;
-}
-
-.underline {
-    text-decoration: underline;
-    font-weight: bold;
-}
+.footer-info p { margin: 5px 0; font-size: 0.9rem; }
+.underline { text-decoration: underline; font-weight: bold; }
