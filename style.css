@@ -42,6 +42,13 @@ body {
     background-size: cover;
 }
 
+#pokemon-logo {
+    width: 80px;               /* tamaño fijo más pequeño */
+    position: absolute;        /* posicionado respecto al contenedor */
+    top: 15px;                 /* ajuste dentro de la carcasa */
+    left: 50%;
+    transform: translateX(-50%);
+}
 .pokedex-case {
     width: 100%;
     max-width: 450px;
